@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "cwd": "~/Downloads/word_overlap_code_data/",
+            "type": "python",
+            "request": "launch",
+            "program": "compare_STARTER_CODE.py",
+            "console": "integratedTerminal",
+            "justMyCode": true, 
+            "args": ["-s",  "./stop_list.txt", "-I", "NEWS/news??.txt"]
+        }
+    ]
+}
